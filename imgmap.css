@@ -1,0 +1,29 @@
+body{
+    background: url('https://c4.wallpaperflare.com/wallpaper/68/647/632/glitter-desktop-backgrounds-wallpaper-preview.jpg');
+}
+#Ram{
+    display: grid;
+    background-color: rgb(227, 138, 28);
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap:20px 10px;
+}
+#Ram >div{
+    background-color:gold;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+img{
+    width: 389px;
+    height:500px;
+    object-fit: cover;
+}
+
+#img1{
+    background: linear-gradient(Gold ,white,Gold);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
